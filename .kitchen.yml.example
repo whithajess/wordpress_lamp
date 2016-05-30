@@ -1,0 +1,29 @@
+---
+driver:
+  name: ec2
+  aws_ssh_key_id: CLI_KEYNAME
+  transport.ssh_key: ~/.ssh/CLI_KEYNAME
+  region: ap-southeast-2
+  security_group_ids: sg........
+  subnet_id: subnet-.........
+  associate_public_ip: true
+  interface: dns
+  tags: { created_by: "test_kitchen" }
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: amazon
+    driver:
+      image_id: ami-0c95b86f
+    transport:
+      username: ec2-user
+
+suites:
+  - name: default
+    data_bags_path: "test/integration/default/data_bags"
+    encrypted_data_bag_secret_key_path: "test/integration/default/encrypted_data_bag_secret"
+    run_list:
+      - recipe[wordpress_lamp::default]
+    attributes:

@@ -1,0 +1,13 @@
+<VirtualHost *:<%= @Port %>>
+  ServerAdmin      <%= @ServerAdmin %>
+  DocumentRoot     /var/www/<%= @Website %>/current
+  ServerName       <%= @ServerName %>
+  ServerAlias      <%= @ServerAlias %>
+  DirectoryIndex   index.php
+
+  ErrorLog         logs/porc-errorlog
+  <Directory /var/www/<%= @Website %>/current>
+    Options       Indexes FollowSymlinks
+    AllowOverride All
+  </Directory>
+</VirtualHost>

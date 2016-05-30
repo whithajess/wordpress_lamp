@@ -1,0 +1,15 @@
+DEPENDENCIES
+  wordpress_lamp
+    path: .
+    metadata: true
+
+GRAPH
+  aws (3.3.3)
+    ohai (>= 2.1.0)
+  compat_resource (12.10.4)
+  lamp (1.0.4)
+  ohai (4.1.0)
+    compat_resource (>= 12.9.0)
+  wordpress_lamp (0.1.0)
+    aws (>= 0.0.0)
+    lamp (>= 0.0.0)
