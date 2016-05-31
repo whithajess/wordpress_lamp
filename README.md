@@ -11,6 +11,7 @@ You will need to create encrypted data bags on the server for the mysql password
 - Create a data bag "mysql" with item "password", store your root password there with the json flag "mysql_password"
 
 - Create a data bag "wordpress" with item "salts", store your salts and keys there under these json flags:
+    "auth_key"
     "secure_auth_key"
     "logged_in_key"
     "nonce_key"
