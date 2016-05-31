@@ -28,15 +28,15 @@ end
 
 execute 'chown-var-www' do
   command 'chown -R apache:www /var/www'
-  action :create
+  action :run
 end
 
 execute 'chmod-var-www-dir' do
   command 'find /var/www -type d -exec sudo chmod 2775 {} \;'
-  action :create
+  action :run
 end
 
 execute 'chmod-var-www-file' do
   command 'find /var/www -type f -exec sudo chmod 0664 {} \;'
-  action :create
+  action :run
 end
