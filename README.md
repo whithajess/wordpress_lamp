@@ -6,7 +6,18 @@ It will not handle deployment of the application specific code it is setup for c
 
 ## Requirements
 
-You'll need to create a data bag "mysql" with item "password", store your root password there with the json flag "mysql_password"
+You will need to create encrypted data bags on the server for the mysql password and wordpress keys and salts.
+
+- Create a data bag "mysql" with item "password", store your root password there with the json flag "mysql_password"
+
+- Create a data bag "wordpress" with item "salts", store your salts and keys there under these json flags:
+    "secure_auth_key"
+    "logged_in_key"
+    "nonce_key"
+    "auth_salt"
+    "secure_auth_salt"
+    "logged_in_salt"
+    "nonce_salt"
 
 ### Supported Platforms
 
@@ -22,9 +33,6 @@ You'll need to create a data bag "mysql" with item "password", store your root p
 
 ## Attributes
 
-TODO: List your cookbook attributes here.
-
-e.g.
 ### wordpress_lamp::default
 
 <table>

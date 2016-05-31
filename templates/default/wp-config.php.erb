@@ -50,15 +50,14 @@ if ( WP_LOCAL_SERVER ){
  *
  * @since 2.6.0
  */
-<!-- TODO: Move this to attribute values -->
-define('AUTH_KEY',         '4Ja~E/9yP1Tz*~Cr.2fJ^4+/=bOo68mXuHyb?ODaDfd*%NmJr-|asSbCy50#4s2T');
-define('SECURE_AUTH_KEY',  'e]e76}2e#v!,oI?+Xb{OlNIooXk[>]As:ILF*dBF,]%xatY#Gs#:,N)uJU#pSh]X');
-define('LOGGED_IN_KEY',    'eGVq[9|`3g3MaJGW];.L.GT7[nc~4%-y0;i||dAHk8;cLyO q%]v=%Rgg;2-aAuX');
-define('NONCE_KEY',        '7|wTC+$6O H9$k|:Z{Tn@|6L;rQI#4*cu|2)2/;Xw%!/b-5i=Ca[}j+pbqlY{[6R');
-define('AUTH_SALT',        '$^N4q?yOQGJz%R>vRYUu-w]&L!r/{*-9n{dh!{q>+m^msDfP|o+:+1F7!AI6]?Ck');
-define('SECURE_AUTH_SALT', 'V_/,?S!&p<WoA*H_O3|UtAUgGS$2Lm7 G5|_:]8%|k+i0_UE^]bCS~eXF{!SML~|');
-define('LOGGED_IN_SALT',   'S~-v|U6kz{t}|t]@nv<#hm,^}.Q_!im6ZZUj:H05w{7l$V(vx8,w28xU%zd0]R.f');
-define('NONCE_SALT',       'S^2e*>7u%!`-MXWU=j0#T|2.Iy.HqU6GJXlyc|3$!D0rmLbD=amnuL;+-^=&Kz8]');
+define('AUTH_KEY',         '<%= @AuthKey %>');
+define('SECURE_AUTH_KEY',  '<%= @SecureAuthKey %>');
+define('LOGGED_IN_KEY',    '<%= @LoggedInKey %>');
+define('NONCE_KEY',        '<%= @NonceKey %>');
+define('AUTH_SALT',        '<%= @AuthSalt %>');
+define('SECURE_AUTH_SALT', '<%= @SecureAuthSalt %>');
+define('LOGGED_IN_SALT',   '<%= @LoggedInSalt %>');
+define('NONCE_SALT',       '<%= @NonceSalt %>');
 
   /**#@-*/
 
