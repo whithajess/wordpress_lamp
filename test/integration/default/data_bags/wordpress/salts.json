@@ -1,0 +1,51 @@
+{
+  "id": "salts",
+  "auth_key": {
+    "encrypted_data": "avWinPyxcb63QIEgCTijR+lEUgClOV9gjohSyG+FHvRU+Lk7c3jiHOWOdOCY\nTEg8+K8juwXhL0a1k24MeAqAOl3RHAERUBUI5VVIp4XpR+zitY+qPsOdCOk0\nLxjUyf9f\n",
+    "iv": "A70xSxgC6xKYfB/Uvz5m9g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "secure_auth_key": {
+    "encrypted_data": "4+n2SnW4ZFCsrFIlD4t+g1s2EVjANRF5S5qVC7VFaQm+TqfOCoNxJr01RJmP\n7inR7CHrOdTdREmywjF/0SEUlV0SzyaY1E0SPwbPCSKvs4cy4JZjKmdXBPVF\n0wq3H3pO\n",
+    "iv": "5bj7flvRlFkBYyr0TXswFA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "logged_in_key": {
+    "encrypted_data": "WS7AvysuW23S/E0hi6sZZLCMmF5mv2vZGWJsG8F5pplMF/mpe5QEpXkWIc7t\nZtpU8Yr0F4O/YE+MBOAK+nZeHTVeaNEryE7nvuSHwfGTbg8cNxynojCPxKuY\nyd4knTDU\n",
+    "iv": "/TJ0/+j7+4RB5KXXCY6J8Q==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "nonce_key": {
+    "encrypted_data": "RA5ytiUsHFa2HpJkK5HXWFQV9TbLldU0B1bIdzvYqusEm7a5EN2SHVlDEz52\nPvFMVAR4CamaABijyif3aWz9/p322BFelsbelbYJsPcE5HfBe7Bi2Ev1E4eU\n98W7SJpq\n",
+    "iv": "PxAIwtrqM1mdugMJ7Rasrg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "auth_salt": {
+    "encrypted_data": "6TID6Ha9bu3Qc5pUd8/ACPJKWW6b7sVAtcOy1LNppxBmbdWWInMR+my7zZT2\n4dM+XicWf2NFEbcTqJ5epsTIai0B+2IX4Z5Id49AthtHtFD6l5BovUT084yz\ns8yjf2l2\n",
+    "iv": "N5+f0LutCWNgMlaeLb6xNw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "secure_auth_salt": {
+    "encrypted_data": "Z4ECcywkhGF7yo9MXU0uudlMHyxq9IZ9bvVOkqinCmJ0VV72xQeTc6Q04tID\n57PmbH4KlKZxm+oVox5MajUqTIDYFrG6jXuV8avW93bQepAnQu7NGuAYP3+o\nb3F//PxJ\n",
+    "iv": "C7CZi35GIZzh6zV/e5vRsQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "logged_in_salt": {
+    "encrypted_data": "tC3Qpvli5ZRtRjZqVvMZHjuQxOsmS/AV3hlR7Db/EpvuVmh0PjHGAuH6sO3Y\nbTaOc2qbrCyvIrujyMC1IhQvJaK6OGWsU0r3T8xbLwzM6y6zOpxYclltGV33\nCv6Jw2JI\n",
+    "iv": "kcSksHD14ppCbOECBMTXqA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "nonce_salt": {
+    "encrypted_data": "FBYfILGeDIC/iMYHE0jAoiMB7Fy5BUnryXI9CN1ZIo0sM7UpAqOxGzwZ1GxR\nNWM6m1SOa1sFyQqqk+XCX96WkCcd8fJXlc2K7ZrqU07pNlhhYU9mVSsSuwZ2\nAWdOjF2n\n",
+    "iv": "dEYwdeMjThvLNWkJxVVs6w==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
