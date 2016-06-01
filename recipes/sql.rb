@@ -17,5 +17,3 @@ bash 'import sql' do
   EOH
   only_if { node['wordpress_lamp']['sql']['import_sql']  }
 end
-
-# mysql -u root -p supersecretpassword calcfb_db < /tmp/sql_dump.sql

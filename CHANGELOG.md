@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of the wordpress_lamp cookbook.
 
-## 0.1.0
+## 1.0.0
 - [Jesse Whitham] - Initial release of wordpress_lamp
 
 - - -
