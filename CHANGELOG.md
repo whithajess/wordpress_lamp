@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the wordpress_lamp cookbook.
 
+## 1.0.1
+- [Jesse Whitham] - Patch dependencies (Security)
+
 ## 1.0.0
 - [Jesse Whitham] - Initial release of wordpress_lamp
 
