@@ -1,6 +1,5 @@
 # wordpress_lamp Cookbook
 [![Cookbook Version](https://img.shields.io/cookbook/v/wordpress_lamp.svg?style=flat)](https://supermarket.chef.io/cookbooks/wordpress_lamp)
-[![Dependency Status](http://img.shields.io/gemnasium/whithajess/wordpress_lamp.svg?style=flat)](https://gemnasium.com/whithajess/wordpress_lamp)
 [![License](https://img.shields.io/github/license/whithajess/wordpress_lamp.svg)](https://www.gnu.org/licenses/gpl.txt)
 
 This cookbook is for creating a usable wordpress with lamp install on your host.
