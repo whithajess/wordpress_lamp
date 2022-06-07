@@ -109,7 +109,7 @@ GEM
     httpclient (2.8.3)
     iniparse (1.4.4)
     ipaddress (0.8.3)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     kitchen-ec2 (2.4.0)
       aws-sdk (~> 2)
       excon
